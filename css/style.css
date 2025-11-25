@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'poppins-light';
+    src: url(/fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'poppins.extrabold';
+    src: url(/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+.filas {
+    border: 2px solid blue;
+}
+.intro { 
+  background: rgb(0, 0, 0); 
+}
+.logo-menu {
+     width: 35%;
+    height: auto;
+    display: block;
+    margin: 15px 15px 15px 150px;
+}
+
+.cls-1 {
+  fill: #f2594b;
+}
+.cls-2 {
+  fill: #f2b441;
+}
+
+.menu01 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;          
+  gap: 80px; 
+  align-items: center;
+  height: 100%;
+           
+}
+
+.menu01 ul li a {
+  text-decoration: none;  
+  color: rgb(255, 255, 255);           
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'poppins.extrabold';
+  transition: color 0.3s;
+}
+.menu01 ul li a:hover {
+  color: #f2b441;
+}
+.img-intro {
+  background : black;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+}
+.img-chuky {
+  width: 80%;
+  border-radius: 0 0 250px 0;
+}
+.chuky-container {
+    position: relative;
+}
+.cuadro-arriba {
+    position: absolute;
+    top: -45px;                
+    left: 0;
+    width: 78%;     
+    background-color:  #f2b441;
+    padding: 15px;
+}
+.img-robot {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  border-radius: 250px 0 0 0;
+}
+.robot-container {
+  position: relative;
+}
+.cuadro-abajo {
+    position: absolute;
+    bottom: -45px;      
+    right: 0;
+    width: 78%;
+    background-color: #f2594b; ;
+    padding: 15px;
+}
+.logo-center {
+    display: flex;               
+    align-items: center;         
+    justify-content: center;     
+}
+.logo-col4 {
+    width: 90%;
+    height: auto;
+    padding: 30px; 
+}
+.col-6.wh-text {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    padding: 5%;
+   
+}
+.col-6 h1 {
+    position: relative;
+    line-height: 1;
+    display: inline-block;
+}
+
+.col-6 h1 .what {
+    display: block;
+    font-size: 110px;
+    font-family: 'poppins.extrabold';
+    color: #f2b441;
+}
+
+.col-6 h1 .ido {
+    display: block;
+    font-size: 170px;
+    font-family: 'poppins.extrabold';
+    color: #f2b441;
+}
+
+.col-6 h1 .question {
+    position: absolute;
+    right: -5px;  
+    top: 0;
+    font-size: 290px;
+    font-family: 'poppins.extrabold';
+    font-weight: 700;
+    line-height: 0.9;
+    color: #f2b441;
+}
+.col-6 p {
+    text-align: justify;
+    text-align-last: center;
+    max-width: 445px;   
+    margin: 2 auto;
+    font-family: 'poppins-light';
+    color: #ffffff;
+}
+.img-paloma {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  border-radius: 230px 0 0 230px;
+}
+.info01 {
+  background: #f2594b;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
